@@ -1,7 +1,7 @@
 module.exports = function (req, res, next) {
-  var agent = require('superagent')
+  const agent = require('superagent')
 
-  var request = agent(req.method, req.url)
+  const request = agent(req.method, req.url)
 
   Object.keys(req.headers).forEach(function (name) {
     request.set(name, req.headers[name])
@@ -19,7 +19,7 @@ module.exports = function (req, res, next) {
   })
 }
 
-function adapter(res, _res, body) {
+function adapter (res, _res, body) {
   // Expose the agent-specific response
   res.setOriginalResponse(_res)
 
@@ -34,8 +34,8 @@ function adapter(res, _res, body) {
   return res
 }
 
-function defineOptions(req, request) {
-  var agentOpts = req.agentOpts
+function defineOptions (req, request) {
+  const agentOpts = req.agentOpts
 
   if (+agentOpts.timeout) {
     request.timeout(agentOpts.timeout)
