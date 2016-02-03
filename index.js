@@ -1,4 +1,4 @@
-module.exports = function (req, res, next) {
+module.exports = function (req, res, cb) {
   const agent = require('superagent')
 
   const request = agent(req.method, req.url)

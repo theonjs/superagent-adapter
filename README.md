@@ -1,4 +1,4 @@
-# superagent-adapter [![Build Status](https://travis-ci.org/theonjs/expect.svg?branch=master)](https://travis-ci.org/theonjs/expect) [![npm version](https://badge.fury.io/js/theon-expect.svg)](https://www.npmjs.com/package/theon-expect)
+# superagent-adapter [![Build Status](https://travis-ci.org/theonjs/superagent-adapter.svg?branch=master)](https://travis-ci.org/theonjs/superagent-adapter) [![npm version](https://badge.fury.io/js/theon-superagent-adapter.svg)](https://www.npmjs.com/package/theon-superagent-adapter)
 
 super-agent HTTP agent adapter [theon](http://github.com/h2non/theon).
 
