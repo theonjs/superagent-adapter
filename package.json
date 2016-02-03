@@ -10,11 +10,7 @@
     "superagent": "^1.7.2"
   },
   "devDependencies": {
-    "mocha": "~2.2.5",
-    "nock": "^7.0.2",
-    "should": "~7.0.2",
-    "standard": "^5.4.1",
-    "theon": "^0.1.27"
+    "standard": "^5.4.1"
   },
   "engines": {
     "node": ">= 0.12.0"
