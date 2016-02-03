@@ -4,7 +4,7 @@
   "description": "super-agent HTTP agent adapter for theon",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha 'test/**/*.js'"
+    "test": "standard"
   },
   "dependencies": {
     "superagent": "^1.7.2"
